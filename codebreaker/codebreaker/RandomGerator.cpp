@@ -11,6 +11,7 @@ void RandomGenerator::generate()
 	bool used[10] = { false };
 	for (int i = 0; i < 4; ++i) 
 	{
+		//”š‚Ìd•¡‚ğ–h‚¬‚Â‚Â”š‚ğ¶¬
 		int n;
 		do {
 			n = dist(gen);

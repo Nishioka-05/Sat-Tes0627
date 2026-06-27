@@ -15,7 +15,7 @@ void judge::compere(const int* answer, const int* input)
 	{
 		if (answer[i] == input[i])
 		{
-			result.hit++;
+			result.hit++;//Œ…‚à”‚à‚ ‚Á‚Ä‚¢‚éê‡‚É‰ÁZ
 		}
 	}
 
@@ -25,7 +25,7 @@ void judge::compere(const int* answer, const int* input)
 		{
 			if (i != j && answer[i] == input[j])
 			{
-				result.blow++;
+				result.blow++; //Œ…‚ªˆá‚¤‚ª”‚ª‚ ‚Á‚Ä‚¢‚éê‡‚É‰ÁZ
 			}
 		}
 	}
