@@ -5,7 +5,7 @@ bool judgeresult::isClear() const
 {
 	return hit == 4;
 }
-//IsClearのテスト
+//IsClearの確認
 //int main()
 //{
 //	judgeresult test;
