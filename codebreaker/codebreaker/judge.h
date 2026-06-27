@@ -8,7 +8,7 @@ private:
 	judgeresult result;
 public:
 	judge();
-	void compere(const int* answer, const int* input);
+	void compare(const int* answer, const int* input);
 	const judgeresult& getResult() const;
 };
 

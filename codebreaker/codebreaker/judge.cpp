@@ -7,7 +7,7 @@ judge:: judge()
 	result.blow = 0;
 }
 
-void judge::compere(const int* answer, const int* input)
+void judge::compare(const int* answer, const int* input)
 {
 	result.hit = 0;
 	result.blow = 0;

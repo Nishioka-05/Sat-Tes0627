@@ -20,7 +20,7 @@ int main()
 		int nums[4];
 		input.getInput(nums);
 
-		j.compere(rg.getNumber(), input.getNumber());
+		j.compare(rg.getNumber(), input.getNumber());
 		const judgeresult& jr = j.getResult();
 		r.print(jr);
 		count++;
